@@ -1,0 +1,42 @@
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.container{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 3rem;
+    border-radius: 7px;
+    flex:0 0 40%;
+}
+#quoteBtn{
+    padding: 5px 6px;
+    border: 4px solid white;
+    border-radius: 7px;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    color: white;
+
+}
+#quoteBtn:hover{
+    background-color: black;
+
+}
+blockquote{
+    background: grey;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-left: 10px solid #fcdbbf
+}
+#quoteAuthor{
+    color:chocolate;
+}
